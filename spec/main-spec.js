@@ -1,4 +1,7 @@
-const main = require('../main/main');
+const printInventory = require('../main/main');
+const dat = require('../main/datbase');
+var loadAllItems = dat.loadAllItems;
+var loadPromotions = dat.loadPromotions;
 
 describe('pos', function () {
     var allItems;
